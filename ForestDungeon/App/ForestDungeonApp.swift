@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct ForestDungeonApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
-            FDLaunchView()
+            AppEntryPoint()
         }
     }
 }

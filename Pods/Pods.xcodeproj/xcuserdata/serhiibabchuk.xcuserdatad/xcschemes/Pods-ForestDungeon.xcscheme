@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "34FCADC54355BEA5DCD0346A77224BD9"
-               BuildableName = "Pods_ForestDungeon.framework"
+               BuildableName = "libPods-ForestDungeon.a"
                BlueprintName = "Pods-ForestDungeon"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

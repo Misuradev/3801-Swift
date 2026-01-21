@@ -1,4 +1,4 @@
-framework module Pods_ForestDungeon {
+module Pods_ForestDungeon {
   umbrella header "Pods-ForestDungeon-umbrella.h"
 
   export *

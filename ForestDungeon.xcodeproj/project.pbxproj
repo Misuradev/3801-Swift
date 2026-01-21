@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D880F1E4D7E262FC5AD8E3C /* libPods-ForestDungeon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E90B7E2BF9F72A76823A7B96 /* libPods-ForestDungeon.a */; };
 		72A3651C2EF15D5A008BA4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72A365192EF15D5A008BA4E5 /* Assets.xcassets */; };
 		72A3651D2EF15D5A008BA4E5 /* ForestDungeonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A3651A2EF15D5A008BA4E5 /* ForestDungeonApp.swift */; };
 		72A365282EF15D78008BA4E5 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A365202EF15D78008BA4E5 /* Color+Extensions.swift */; };
@@ -14,13 +15,21 @@
 		72A3652A2EF15D78008BA4E5 /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A365212EF15D78008BA4E5 /* ShapeStyle+Extensions.swift */; };
 		72A3652B2EF15D78008BA4E5 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A3651F2EF15D78008BA4E5 /* View+Extensions.swift */; };
 		72A3652C2EF15D78008BA4E5 /* FDLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A365252EF15D78008BA4E5 /* FDLaunchView.swift */; };
-		B527C2B6E8A615144FB83E91 /* Pods_ForestDungeon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64E36A61F59D316A473D9DDE /* Pods_ForestDungeon.framework */; };
+		72FF16092F20C2BD00254272 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 72FF16082F20C2BD00254272 /* GoogleService-Info.plist */; };
+		72FF160C2F20C2D900254272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF160A2F20C2D900254272 /* AppDelegate.swift */; };
+		72FF160D2F20C2D900254272 /* AppEntryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF160B2F20C2D900254272 /* AppEntryPoint.swift */; };
+		72FF160F2F20C30600254272 /* TextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF160E2F20C30600254272 /* TextScreen.swift */; };
+		72FF16182F20C33D00254272 /* WebSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16162F20C33D00254272 /* WebSheetViewController.swift */; };
+		72FF16192F20C33D00254272 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16142F20C33D00254272 /* WebViewContainer.swift */; };
+		72FF161A2F20C33D00254272 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16132F20C33D00254272 /* UserAgentBuilder.swift */; };
+		72FF161B2F20C33D00254272 /* WebViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16152F20C33D00254272 /* WebViewCoordinator.swift */; };
+		72FF161C2F20C33D00254272 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72FF16102F20C33D00254272 /* PrivacyView.swift */; };
+		72FF161D2F20C33D00254272 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 72FF16122F20C33D00254272 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		08810EEED0849A1F2B51FD28 /* Pods-ForestDungeon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForestDungeon.debug.xcconfig"; path = "Target Support Files/Pods-ForestDungeon/Pods-ForestDungeon.debug.xcconfig"; sourceTree = "<group>"; };
 		46EF41F1CC7E113F43198C2C /* Pods-ForestDungeon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForestDungeon.release.xcconfig"; path = "Target Support Files/Pods-ForestDungeon/Pods-ForestDungeon.release.xcconfig"; sourceTree = "<group>"; };
-		64E36A61F59D316A473D9DDE /* Pods_ForestDungeon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForestDungeon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A3650A2EF15D22008BA4E5 /* ForestDungeon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForestDungeon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72A365192EF15D5A008BA4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72A3651A2EF15D5A008BA4E5 /* ForestDungeonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestDungeonApp.swift; sourceTree = "<group>"; };
@@ -30,6 +39,18 @@
 		72A365232EF15D78008BA4E5 /* FDHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDHomeWebView.swift; sourceTree = "<group>"; };
 		72A365252EF15D78008BA4E5 /* FDLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDLaunchView.swift; sourceTree = "<group>"; };
 		72A3652D2EF15DE7008BA4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		72FF16082F20C2BD00254272 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72FF160A2F20C2D900254272 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72FF160B2F20C2D900254272 /* AppEntryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntryPoint.swift; sourceTree = "<group>"; };
+		72FF160E2F20C30600254272 /* TextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextScreen.swift; sourceTree = "<group>"; };
+		72FF16102F20C33D00254272 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		72FF16122F20C33D00254272 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		72FF16132F20C33D00254272 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		72FF16142F20C33D00254272 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		72FF16152F20C33D00254272 /* WebViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCoordinator.swift; sourceTree = "<group>"; };
+		72FF16162F20C33D00254272 /* WebSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSheetViewController.swift; sourceTree = "<group>"; };
+		72FF161E2F20C34C00254272 /* ForestDungeon.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ForestDungeon.entitlements; sourceTree = "<group>"; };
+		E90B7E2BF9F72A76823A7B96 /* libPods-ForestDungeon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ForestDungeon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B527C2B6E8A615144FB83E91 /* Pods_ForestDungeon.framework in Frameworks */,
+				6D880F1E4D7E262FC5AD8E3C /* libPods-ForestDungeon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +86,8 @@
 		72A3651B2EF15D5A008BA4E5 /* ForestDungeon */ = {
 			isa = PBXGroup;
 			children = (
+				72FF161E2F20C34C00254272 /* ForestDungeon.entitlements */,
+				72FF16082F20C2BD00254272 /* GoogleService-Info.plist */,
 				72A3652D2EF15DE7008BA4E5 /* Info.plist */,
 				72A365222EF15D78008BA4E5 /* Extensions */,
 				72A365272EF15D78008BA4E5 /* Screens */,
@@ -77,6 +100,8 @@
 		72A3651E2EF15D5D008BA4E5 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				72FF160A2F20C2D900254272 /* AppDelegate.swift */,
+				72FF160B2F20C2D900254272 /* AppEntryPoint.swift */,
 				72A3651A2EF15D5A008BA4E5 /* ForestDungeonApp.swift */,
 			);
 			path = App;
@@ -85,6 +110,7 @@
 		72A365222EF15D78008BA4E5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				72FF160E2F20C30600254272 /* TextScreen.swift */,
 				72A3651F2EF15D78008BA4E5 /* View+Extensions.swift */,
 				72A365202EF15D78008BA4E5 /* Color+Extensions.swift */,
 				72A365212EF15D78008BA4E5 /* ShapeStyle+Extensions.swift */,
@@ -111,16 +137,38 @@
 		72A365272EF15D78008BA4E5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				72FF16112F20C33D00254272 /* PrivacyScreen */,
+				72FF16172F20C33D00254272 /* Web */,
 				72A365242EF15D78008BA4E5 /* HomeWebScreen */,
 				72A365262EF15D78008BA4E5 /* LaunchScreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
 		};
+		72FF16112F20C33D00254272 /* PrivacyScreen */ = {
+			isa = PBXGroup;
+			children = (
+				72FF16102F20C33D00254272 /* PrivacyView.swift */,
+			);
+			path = PrivacyScreen;
+			sourceTree = "<group>";
+		};
+		72FF16172F20C33D00254272 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				72FF16122F20C33D00254272 /* index.html */,
+				72FF16132F20C33D00254272 /* UserAgentBuilder.swift */,
+				72FF16142F20C33D00254272 /* WebViewContainer.swift */,
+				72FF16152F20C33D00254272 /* WebViewCoordinator.swift */,
+				72FF16162F20C33D00254272 /* WebSheetViewController.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		75B36F871D92C16799E69168 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				64E36A61F59D316A473D9DDE /* Pods_ForestDungeon.framework */,
+				E90B7E2BF9F72A76823A7B96 /* libPods-ForestDungeon.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -131,7 +179,6 @@
 				08810EEED0849A1F2B51FD28 /* Pods-ForestDungeon.debug.xcconfig */,
 				46EF41F1CC7E113F43198C2C /* Pods-ForestDungeon.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,6 +193,7 @@
 				72A365062EF15D22008BA4E5 /* Sources */,
 				72A365072EF15D22008BA4E5 /* Frameworks */,
 				72A365082EF15D22008BA4E5 /* Resources */,
+				E71CEB38F41DCEBFA023275F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,6 +220,7 @@
 				};
 			};
 			buildConfigurationList = 72A365052EF15D22008BA4E5 /* Build configuration list for PBXProject "ForestDungeon" */;
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -180,7 +229,6 @@
 			);
 			mainGroup = 72A365012EF15D22008BA4E5;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 55;
 			productRefGroup = 72A3650B2EF15D22008BA4E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -195,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72FF161D2F20C33D00254272 /* index.html in Resources */,
+				72FF16092F20C2BD00254272 /* GoogleService-Info.plist in Resources */,
 				72A3651C2EF15D5A008BA4E5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +274,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E71CEB38F41DCEBFA023275F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForestDungeon/Pods-ForestDungeon-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForestDungeon/Pods-ForestDungeon-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForestDungeon/Pods-ForestDungeon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -232,11 +299,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				72A3651D2EF15D5A008BA4E5 /* ForestDungeonApp.swift in Sources */,
+				72FF160F2F20C30600254272 /* TextScreen.swift in Sources */,
 				72A365282EF15D78008BA4E5 /* Color+Extensions.swift in Sources */,
 				72A365292EF15D78008BA4E5 /* FDHomeWebView.swift in Sources */,
 				72A3652A2EF15D78008BA4E5 /* ShapeStyle+Extensions.swift in Sources */,
 				72A3652B2EF15D78008BA4E5 /* View+Extensions.swift in Sources */,
+				72FF160C2F20C2D900254272 /* AppDelegate.swift in Sources */,
+				72FF160D2F20C2D900254272 /* AppEntryPoint.swift in Sources */,
 				72A3652C2EF15D78008BA4E5 /* FDLaunchView.swift in Sources */,
+				72FF16182F20C33D00254272 /* WebSheetViewController.swift in Sources */,
+				72FF16192F20C33D00254272 /* WebViewContainer.swift in Sources */,
+				72FF161A2F20C33D00254272 /* UserAgentBuilder.swift in Sources */,
+				72FF161B2F20C33D00254272 /* WebViewCoordinator.swift in Sources */,
+				72FF161C2F20C33D00254272 /* PrivacyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,11 +440,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForestDungeon/ForestDungeon.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ForestDungeon/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Forest Dungeon";
@@ -387,7 +464,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.misiuraaproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -407,11 +484,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ForestDungeon/ForestDungeon.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ForestDungeon/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Forest Dungeon";
@@ -429,7 +508,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.misiuraaproj.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
